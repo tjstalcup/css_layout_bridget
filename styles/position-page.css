@@ -1,1 +1,62 @@
+html {
+	background: url(css_layout_exercises_starter_files/images/outerspace.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
 
+
+ul {
+	list-style-tape: none;
+	background-color: grey;
+	background-position: relative;
+	margin: 0;
+	padding: 0;
+	height: 80px;
+	overflow: hidden;
+}
+
+img.icon {
+	border-radius: 50%;
+	border: solid 1px grey;
+}
+
+li {
+	display: inline;
+	position: relative;
+}
+
+a {
+	padding: 8px;
+	position: relative;
+	bottom: 35px;
+	color: purple;
+}
+
+a:link {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.border {
+	border: green 10px dotted;
+	width: 600px;
+	height: 300px;
+	display: block;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+div img.cat {
+	position: absolute;
+	display: inline-block;
+	top: -100px;
+	left: -100px;
+}
+
+div img.dog {
+	position: absolute;
+	display: inline-block;
+	bottom: -100px;
+	right: -100px;
+}
